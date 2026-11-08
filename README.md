@@ -19,7 +19,7 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 |---|---|
 | Install the latest Android apps | [GitHub release](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/v1.0.5) · [installation](docs/software.md) |
 | Print the enclosure | [Color-separated STL files](hardware/print) · [printing guide](docs/printing.md) · [BOM](hardware/BOM.csv) |
-| Edit the mechanical design | [FreeCAD and STEP](hardware/cad) · [CAD provenance](docs/cad-and-validation.md) |
+| Edit the mechanical design | [Editable CAD — start here](hardware/cad) · [Direct editing guide](docs/editing-cad.md) |
 | Inspect the normal assembled model | [Assembled Blender scene](media/via-oneplus-pad-r14-1-assembled.blend) |
 | Assemble and service it | [Assembly sequence](docs/assembly.md) |
 | Understand LED grooves and wiring | [LED integration](docs/led-and-wiring.md) |
@@ -36,6 +36,12 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 - R14 CAD plus the later **O05 0.20 mm single-layer optical-film amendment**; the 0.40 mm alternative remains available and clearly identified.
 - VIA Terminal and VIA Mobile 1.0.5 source; named local profiles, local QR/BLE confirmation, Bluetooth recovery and proper Mobile Back navigation.
 - Optional ESP32 LED-control firmware; it is independent of tablet–phone confirmation.
+
+## Modify the enclosure
+
+[Download the editable CAD / STEP / STL handoff](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-cad.3)
+
+Open the [clean FreeCAD assembly](hardware/cad/native/VIA_Terminal_R14_1_Editable.FCStd), the [complete assembly STEP](hardware/cad/assembly/VIA_Terminal_R14_1_Assembly.step), or an [individual component STEP](hardware/cad/step). The [editing guide](docs/editing-cad.md) explains direct solid editing and export back to printing. Native CAD contains final editable solids, without requiring a construction macro.
 
 ## Expanded documentation downloads
 

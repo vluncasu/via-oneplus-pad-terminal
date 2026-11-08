@@ -12,7 +12,7 @@ The constraints conflict. Monoblock geometry reduces visible seams but can incre
 
 ## 2. Method and evidence classification
 
-The workflow is iterative: requirements → assembly decomposition → nominal tablet envelope → cable and LED keep-out volumes → fastener and service paths → FFF orientation → digital checks → coupons → physical validation. Existing R01–R14 authoring scripts and native snapshots preserve the geometric provenance. New publication checks inspect the final STL inventory, native solid validity, software builds, protocol tests and rendered meshes.
+The workflow is iterative: requirements → assembly decomposition → nominal tablet envelope → cable and LED keep-out volumes → fastener and service paths → FFF orientation → digital checks → coupons → physical validation. Native R01–R14 revision snapshots preserve the geometric development history. New publication checks inspect the final STL inventory, native solid validity, software builds, protocol tests and rendered meshes.
 
 Four evidence levels are distinguished: (a) requirements and user preferences; (b) geometric implementation visible in CAD; (c) digital checks limited to their stated scope; and (d) physical performance, which is not established by the current publication. CAD collision checks do not establish assembly force, dimensional accuracy or load capacity. A photorealistic render is an illustration of geometry and materials, not a measurement of translucency, stiffness or heat flow.
 

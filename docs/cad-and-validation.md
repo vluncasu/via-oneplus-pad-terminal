@@ -1,59 +1,36 @@
-# CAD Provenance, Editable Files and Validation Scope
+# CAD Files, Editing and Validation Scope
 
-## Current geometry
+## Current handoff
 
-- Baseline: native R14 CAD, English-labeled parts and individual STEP exports.
-- Amendment: O05 thickness changed from 0.40 mm to 0.20 mm while retaining the optical-film outline and front datum. The amended native assembly is `hardware/cad/native/via-oneplus-pad-r14-1-film-020.FCStd`.
-- Current normal assembled Blender scene: `media/via-oneplus-pad-r14-1-assembled.blend`. It is an inspection/render scene, not an editable parametric CAD substitute.
-- `hardware/cad/step` contains component-level exchange solids. Reference envelopes are in `references` and must not be printed.
-- `hardware/cad/assembly-meshes` uses assembly/world coordinates; printable STLs use proposed print coordinates. Do not substitute one set for the other.
+- [Clean native FreeCAD assembly](../hardware/cad/native/VIA_Terminal_R14_1_Editable.FCStd): only the 30 required printed components, named and grouped by filament.
+- [Complete assembly STEP](../hardware/cad/assembly/VIA_Terminal_R14_1_Assembly.step): the same assembled components for exchange with other solid CAD tools.
+- [Individual component STEP files](../hardware/cad/step): component-level solids, including explicit reference/probe and alternative variants.
+- [Printing files](../hardware/print): quantity-named STLs in their supplied print coordinates.
+- [Normal assembled Blender scene](../media/via-oneplus-pad-r14-1-assembled.blend): appearance and mesh inspection.
 
-FreeCAD native objects include final B-rep feature shapes. The files permit direct geometric editing, but this should not be represented as a complete sketch-driven parameter tree. Authoring scripts preserve operations from earlier revisions and contain historical application-path assumptions. They are provenance, not a single portable one-click build of every historical revision. The supplied final native CAD/STEP and validated print inventory are the reproducible delivery baseline.
+Use the [direct CAD editing guide](editing-cad.md) to choose a file, modify a local feature and export a revised part. The native files contain final editable B-rep solids; they are not presented as a complete sketch-driven parameter tree. No part-generation macro is needed to open the supplied models.
 
-## Historical rationale
+## Geometry and revisions
 
-R01–R06 explored assembly decomposition, camera/port detail and fit. R07–R11 consolidated monoblock structure, cable/LED routes and root reinforcement. R12–R13 experimented with service/retention concepts. R14 replaced small front snap mechanisms with a top sliding bar and rear integrated locking pins, and separated the detailed optical face from the open carrier for flatter printing. See the full [design report](design-rationale.md). Historical native snapshots and scripts are preserved under `authoring-history`; their original labels/comments are archival and may be Romanian.
+Hardware remains R14.1. O05 is 0.20 mm, retaining the original outline and front datum. The engineering native file `via-oneplus-pad-r14-1-film-020.FCStd` retains references/probes; the clean editing file excludes them. The baseline alternative retains the older 0.40 mm film.
+
+Earlier R01–R14 native snapshots are retained in [revision-archive](../hardware/cad/revision-archive). The current handoff contains native CAD and exchange/printing files rather than historical construction source. Earlier revisions are for comparison; select the current R14.1 assembly for a new modification.
+
+Assembly/world-coordinate meshes and STEP files are distinct from proposed-print-coordinate STL files. After editing an assembled solid, choose its print orientation again in the slicer. R01–R05 nominal tablet, supply, USB and LED envelopes are separate [references](../hardware/cad/references), not printable hardware.
 
 ## What the reports establish
 
 | Report | Evidence | Does not establish |
 |---|---|---|
-| print-mesh-audit.json | File hash, triangle count, watertightness, winding and nominal printer-box bounds | Real slicer supports, adhesion, material strength or dimensional fit |
-| native-shape-audit.json | Native shape validity/solid counts; explicit O05 amendment dimensions | Physical performance or global absence of every possible collision |
-| r14-baseline/geometry.json | Historical native checks of selected changed R14 parts | A full current-assembly print qualification |
-| r14-baseline/contacts.json | Selected assembled intersection-volume checks | Fastener strength, retention force or tolerance stack |
-| r14-baseline/service.json | Tested H05 displacements and nominal tablet sweep after cover removal | Real bump/buttons/cable sweep, deformation or service life |
-| r14-baseline/overhang_screen.json | Triangle-normal screening of selected downward faces | A support-free slicer result |
+| [Editable delivery](../hardware/validation/editable-delivery.json) | Native assembly reopens with 30 valid solids; complete STEP round-trip validity/count/volume | Feature-history completeness, real fit or structural qualification |
+| [Print mesh audit](../hardware/validation/print-mesh-audit.json) | File hashes, watertightness, winding and nominal printer bounds | Supports, adhesion, material strength or dimensional fit |
+| [Native shape audit](../hardware/validation/native-shape-audit.json) | Baseline shape validity and explicit O05 amendment | Physical performance or global collision freedom |
+| [Historical reports](../hardware/validation/r14-baseline) | Selected shape/contact checks and nominal service sweeps | Real cable/button/protrusion behavior or service life |
 
-The 0.20 mm film amendment is smaller in thickness but must still be tested for retention and rattle. Old 0.40 mm reports remain baseline evidence rather than being silently relabeled.
+The 0.20 mm film still needs capture/rattle testing. Historical 0.40 mm reports remain baseline evidence. The archive's normal-based overhang screening is not a slicer simulation or a support-free guarantee.
 
-## Re-run STL checks
+## Check a revised delivery
 
-```bash
-python -m pip install trimesh numpy
-python scripts/check_print_meshes.py
-```
+Measure an imported known dimension, check that each edited solid is valid, export the intended part and inspect the slicer layers. The existing non-modifying mesh audit can be run with `python scripts/check_print_meshes.py` after installing trimesh and numpy. Update the inventory only when the new files and affected interface tests are ready.
 
-This audits geometry without rewriting meshes. Source checksums and part quantities are in `hardware/parts.json` and `hardware/BOM.csv`. A 256 mm bounding-box check is only a necessary geometric filter; the actual printer profile and support/brim bounds are still decisive.
-
-## Rebuild the publication amendments and gallery
-
-Use a Python interpreter linked to FreeCAD/OpenCascade. Set `FREECAD_LIB` if its Python library directory is not on the interpreter's import path, then run `python scripts/export_cad_amendment.py`. This regenerates the English-labeled native snapshot, the thin-film STEP and assembly mesh, and the native audit. It does not rebuild every historic boolean operation or automatically create a slicer project.
-
-With Blender 4.2 LTS available, run `blender --background --threads 4 --python scripts/render_gallery.py` from the repository root. It uses the archived assembled scene and supplied assembly meshes to produce the current gallery and normal assembled `.blend` inspection file. Material/emission choices are illustrations, not optical measurements.
-
-## Reproduce the expanded figures and documentation
-
-Use Blender 4.2 LTS or a compatible installation with its STL importer:
-
-```bash
-blender --background --threads 4 --python scripts/render_extended_gallery.py
-# Optional subset: figures 25 and 26 only.
-VIA_RENDER_ONLY=25,26 blender --background --threads 4 --python scripts/render_extended_gallery.py
-python3 scripts/build_part_catalog.py
-python3 scripts/check_documentation.py --refresh-render-hashes
-# Requires reportlab and Arial Unicode (macOS) or DejaVu Sans (Linux).
-python3 scripts/build_handbook.py
-```
-
-The extended renderer reads baseline assembly meshes, applies inspection-only visibility/section operations and does not resave the normal assembled Blender scene. The [figure manifest](../media/render-manifest.json) identifies each image, group and caption. No render generation command changes the print STLs. The part catalog is regenerated from the inventory plus its audit rather than manually retyping bounds.
+The [figure manifest](../media/render-manifest.json) records captions, PNG dimensions and hashes. Images illustrate the supplied component geometry; reference envelopes, section cuts and omitted covers are identified in their captions. See the [verification record](verification.md) and [physical acceptance plan](acceptance-test-plan.md).

@@ -7,11 +7,12 @@
   "png_hashes_and_dimensions_recorded": true,
   "handbook_pages": 28,
   "handbook_bookmarks": 13,
-  "handbook_sha256": "bd48be5fa0848e98e19f8debcc90b02e365fe56baf7314e4b00fb8296ebf64ca",
+  "handbook_sha256": "db0d551a9fa9d760820d7e02650035e0bcdbcc70cc100001c7631f69b88839f0",
   "pdf_pages_rendered_and_visually_reviewed": true,
   "documentation_links": "local targets checked by scripts/check_documentation.py",
   "catalog": "regenerated from existing inventory and audit",
   "android_source_unchanged": true,
   "hardware_geometry_and_print_files_unchanged": true,
-  "scope": "Publication/documentation checks only; no new physical manufacturing or device qualification."
+  "scope": "Publication/documentation checks only; no new physical manufacturing or device qualification.",
+  "note": "Documentation links refreshed for direct native/STEP editing handoff; manufacturing geometry and Android source unchanged."
 }

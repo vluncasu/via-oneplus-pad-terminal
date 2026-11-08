@@ -52,4 +52,4 @@ P01 is one black printed component. Tongues and recesses are decorative; do not 
 
 Use product views for appearance, cover-omitted views for assembly relationships and sections for internal voids. An orange envelope shows reserved space, not a purchased component that has been measured to fit. LED line appearance in a render is not an optical test. Read [interfaces and retention](interfaces-and-retention.md), [LED integration](led-and-wiring.md) and the [physical test plan](acceptance-test-plan.md) before fabrication.
 
-The render source scripts and stable [figure manifest](../media/render-manifest.json) are supplied for reproduction and caption consistency.
+The normal assembled Blender scene and stable [figure manifest](../media/render-manifest.json) accompany the images. Edit scene objects, materials, cameras and lights directly in Blender.

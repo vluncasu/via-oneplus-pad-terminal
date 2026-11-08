@@ -1,0 +1,24 @@
+{
+  "scope": "Native/STEP file integrity and approximate translation consistency; not full surface-equivalence or physical-fit qualification.",
+  "required_components": 30,
+  "native_reopened_valid_solids": 30,
+  "step_roundtrip_valid": true,
+  "step_roundtrip_solid_count": 30,
+  "native_volume_mm3": 1522209.4852065253,
+  "step_volume_mm3": 1522225.7075192677,
+  "relative_volume_difference_percent": 0.0010657082944255604,
+  "volume_diagnostic_limit_percent": 0.01,
+  "assembly_bounds_mm": [
+    310.0,
+    230.0,
+    341.6448452238461
+  ],
+  "bound_differences_mm": [
+    1.1368683772161603e-13,
+    0.0,
+    1.0970779840135947e-11
+  ],
+  "bound_diagnostic_limit_mm": 0.05,
+  "native_file": "hardware/cad/native/VIA_Terminal_R14_1_Editable.FCStd",
+  "assembly_step": "hardware/cad/assembly/VIA_Terminal_R14_1_Assembly.step"
+}

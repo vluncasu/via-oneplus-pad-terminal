@@ -28,3 +28,7 @@ Use the [requirements matrix](requirements-traceability.md) to see which design 
 ## Expanded documentation edition
 
 The [edition record](../verification/documentation-edition2.json) records 33 captioned renderings, PNG hashes/dimensions and the 28-page handbook with 13 outline entries. All handbook pages were rendered for visual review; local documentation targets and generated catalog consistency were checked. These changes do not alter APKs, CAD geometry or print STLs.
+
+## Direct-edit CAD handoff
+
+The [native/STEP delivery check](../hardware/validation/editable-delivery.json) reopened the clean native file with 30 valid individual solids and round-tripped the complete STEP with 30 valid solids. Assembly bounds agree within recorded numerical precision. The STEP volume differs by approximately 0.0011%, recorded as a translation diagnostic rather than a geometric-equivalence or fit guarantee. Print STL hashes remain unchanged.

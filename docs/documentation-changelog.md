@@ -1,5 +1,10 @@
 # Documentation Editions
 
+## Editable CAD handoff — 8 November 2026
+
+Added a clean 30-component FreeCAD assembly and whole-assembly STEP with round-trip checks. Current hardware delivery uses native CAD, STEP and STL files; historical construction/render source is omitted. Native revision snapshots remain available for comparison. Application source and mechanical geometry are unchanged.
+
+
 ## Expanded illustrated edition — 8 November 2026
 
 Hardware remains R14.1 and applications remain 1.0.5. No structural shape, print STL, native CAD geometry, Android behavior or official APK is changed in this edition.

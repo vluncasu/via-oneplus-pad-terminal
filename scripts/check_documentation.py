@@ -3,7 +3,7 @@ from pathlib import Path
 import json,re,struct,hashlib,sys
 r=Path(__file__).resolve().parents[1]
 errors=[];links=0
-for p in [r/'README.md',*sorted((r/'docs').glob('*.md'))]:
+for p in [r/'README.md',*sorted((r/'docs').glob('*.md')),*sorted((r/'hardware/cad').glob('*.md'))]:
  for target in re.findall(r'\]\(([^)]+)\)',p.read_text()):
   if target.startswith(('https://','http://','mailto:','#')):continue
   links+=1;dest=(p.parent/target.split('#')[0]).resolve()

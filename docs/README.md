@@ -19,7 +19,7 @@ This handbook connects the **OnePlus Pad OPD2203 enclosure** to its printable co
 | Run the ten-minute demonstration | [Demo runbook](demo-runbook.md) | [Software architecture](software.md) |
 | Diagnose a problem | [Troubleshooting](troubleshooting.md) | [Acceptance and test plan](acceptance-test-plan.md) |
 | Audit a design claim | [Requirements traceability](requirements-traceability.md) | [Verification record](verification.md) |
-| Edit or reproduce the design | [CAD provenance](cad-and-validation.md) | [Native CAD](../hardware/cad/native) |
+| Edit or reproduce the design | [Direct editing guide](editing-cad.md) | [CAD formats and validation](cad-and-validation.md) |
 
 ## What each evidence label means
 
