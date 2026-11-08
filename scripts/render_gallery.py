@@ -69,9 +69,10 @@ def center(code):
 # Save a normal assembled inspection scene before any isolated/detail views.
 cam.location=(470,650,420);cam.rotation_euler=(Vector((0,0,166))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.ortho_scale=520
 for c,o in objs.items():o.hide_set(c.startswith('R') and c!='R01')
-bpy.ops.object.select_all(action='DESELECT');bpy.ops.wm.save_as_mainfile(filepath=str(r/'media/via-oneplus-pad-r14-1-assembled.blend'))
+bpy.ops.object.select_all(action='DESELECT')
+if not os.environ.get('VIA_NO_SCENE_SAVE'):bpy.ops.wm.save_as_mainfile(filepath=str(r/'media/via-oneplus-pad-r14-1-assembled.blend'))
 view('01-oneplus-pad-terminal-front',(470,650,420),(0,0,165),520)
-bpy.ops.wm.save_as_mainfile(filepath=str(r/'media/via-oneplus-pad-r14-1-assembled.blend'))
+if not os.environ.get('VIA_NO_SCENE_SAVE'):bpy.ops.wm.save_as_mainfile(filepath=str(r/'media/via-oneplus-pad-r14-1-assembled.blend'))
 view('02-oneplus-pad-terminal-rear',(-420,-650,390),(0,0,165),520)
 view('03-continuous-s-stand-side',(620,0,285),(0,0,165),470)
 isolate(['B01','P01']);view('04-recessed-dummy-usb-ethernet-ports',(160,-460,170),(0,-100,24),255)

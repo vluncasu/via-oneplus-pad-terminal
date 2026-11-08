@@ -41,3 +41,19 @@ This audits geometry without rewriting meshes. Source checksums and part quantit
 Use a Python interpreter linked to FreeCAD/OpenCascade. Set `FREECAD_LIB` if its Python library directory is not on the interpreter's import path, then run `python scripts/export_cad_amendment.py`. This regenerates the English-labeled native snapshot, the thin-film STEP and assembly mesh, and the native audit. It does not rebuild every historic boolean operation or automatically create a slicer project.
 
 With Blender 4.2 LTS available, run `blender --background --threads 4 --python scripts/render_gallery.py` from the repository root. It uses the archived assembled scene and supplied assembly meshes to produce the current gallery and normal assembled `.blend` inspection file. Material/emission choices are illustrations, not optical measurements.
+
+## Reproduce the expanded figures and documentation
+
+Use Blender 4.2 LTS or a compatible installation with its STL importer:
+
+```bash
+blender --background --threads 4 --python scripts/render_extended_gallery.py
+# Optional subset: figures 25 and 26 only.
+VIA_RENDER_ONLY=25,26 blender --background --threads 4 --python scripts/render_extended_gallery.py
+python3 scripts/build_part_catalog.py
+python3 scripts/check_documentation.py --refresh-render-hashes
+# Requires reportlab and Arial Unicode (macOS) or DejaVu Sans (Linux).
+python3 scripts/build_handbook.py
+```
+
+The extended renderer reads baseline assembly meshes, applies inspection-only visibility/section operations and does not resave the normal assembled Blender scene. The [figure manifest](../media/render-manifest.json) identifies each image, group and caption. No render generation command changes the print STLs. The part catalog is regenerated from the inventory plus its audit rather than manually retyping bounds.

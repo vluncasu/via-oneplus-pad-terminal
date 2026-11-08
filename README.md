@@ -13,6 +13,8 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 
 ## Start here
 
+[Engineering documentation](docs/README.md) · [Illustrated handbook PDF](docs/VIA_Assembly_and_Demo_Handbook.pdf) · [33-view gallery](docs/gallery.md) · [Part catalog](docs/part-catalog.md) · [Demo runbook](docs/demo-runbook.md)
+
 | Goal | Where to go |
 |---|---|
 | Install the latest Android apps | [GitHub release](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/v1.0.5) · [installation](docs/software.md) |
@@ -34,6 +36,18 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 - R14 CAD plus the later **O05 0.20 mm single-layer optical-film amendment**; the 0.40 mm alternative remains available and clearly identified.
 - VIA Terminal and VIA Mobile 1.0.5 source; named local profiles, local QR/BLE confirmation, Bluetooth recovery and proper Mobile Back navigation.
 - Optional ESP32 LED-control firmware; it is independent of tablet–phone confirmation.
+
+## Expanded documentation downloads
+
+The [expanded illustrated edition](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-docs.2) contains the 33-view gallery and 28-page assembly/demo handbook. APKs remain in the 1.0.5 application release above. See the [documentation changelog](docs/documentation-changelog.md) for the exact scope.
+
+## Illustrated construction
+
+![Internal head with rear covers omitted, showing the nominal tablet seating](media/renders/20-open-head-tablet-seating.png)
+
+![Recessed one-piece dummy port cartridge with printed internal detail](media/renders/25-dummy-ports-front-detail.png)
+
+The [engineering gallery](docs/gallery-engineering.md) explains omitted covers, reference volumes and section cuts. Follow the [manufacturing workflow](docs/manufacturing-workflow.md), [fastener map](docs/fasteners-and-service.md) and [acceptance plan](docs/acceptance-test-plan.md) to move from CAD to a recorded physical build.
 
 ## Hardware envelope
 

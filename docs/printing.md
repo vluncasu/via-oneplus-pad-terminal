@@ -1,5 +1,7 @@
 # 3D Printing the OnePlus Pad Enclosure
 
+Read the [staged manufacturing workflow](manufacturing-workflow.md) before committing the largest jobs. Use the [part catalog](part-catalog.md) for exact file quantities and exported bounds.
+
 ## Select files
 
 Use `hardware/print/white-petg`, `black-petg` and `natural-petg`. Every filename begins with a quantity and stable part IDs. For example, `04x_V21-V22-V23-V24_...stl` means print that geometry four times. The 17 required files make 30 physical items. Fifteen optional test files are separate. Do not print R01–R05 reference envelopes. The `alternative-thickness` O05 file is an alternative, not an additional required item.

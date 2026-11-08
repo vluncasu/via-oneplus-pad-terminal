@@ -33,3 +33,34 @@ Do not infer strip voltage or power from the 8 mm width. Use the actual manufact
 The head and base include repeated vent patterns and fine concealment features. In slicer preview, confirm that the intended openings remain open and that the thin lattice is actually produced by the nozzle. These features are decorative/dust-obscuring geometry, not an IP-rated dust filter or quantified airflow system. Keep their paths free of infill and wiring; evaluate airflow and temperature with the actual electronics installed.
 
 See the [LED head](../media/renders/07-integrated-head-led-channel.png), [LED base](../media/renders/08-integrated-base-led-channel.png), [root reinforcement](../media/renders/09-stand-root-reinforcement.png) and [cable section](../media/renders/10-internal-cable-duct-section.png) views. Orange LED envelopes are inspection references, not measured light distribution.
+
+## Cable topology and closure order
+
+```mermaid
+flowchart LR
+    IN[Real incoming low-voltage cable] --> F[P01 cable funnel / separate strain relief]
+    F --> DIST[Base distribution and power electronics]
+    DIST --> BASE[Base LED feed / corner joint]
+    DIST --> DUCT[B07 internal duct]
+    DUCT --> USB[O03 access / real USB-C plug / tablet]
+    DUCT --> HEAD[Head LED feed / corner joint]
+```
+
+This is a functional topology, not an electrical wiring schematic. Actual wire sizes, fusing, regulation, LED voltage, charging protocol and connectors depend on selected components. The optional ESP32 firmware is a separate low-voltage controller; it is not required for phone/tablet confirmation.
+
+Before closing B03, pass the complete actual USB connector through B07 and the head joint. Add the head LED conductors alongside it and repeat the pull-through test. Leave the base LED feed within the base. Keep enough controlled slack to open O03 and disconnect the tablet, without a loose loop entering a vent or screw seat. Use actual suitable strain relief; the printed funnel alone is not retention.
+
+![Opposite section of the explicit stand cable duct](../media/renders/30-cable-duct-opposite-section.png)
+
+Figure 30 is a geometric inspection section. No visible external cable channel is added to the real stand. The section shows the modeled void; successful passage of a particular plug still requires its physical test.
+
+## Corner-feed planning checklist
+
+- Identify the strip's permitted bend direction before cutting or attaching it.
+- Reserve room for the real feed joint, insulation and cable bend, not only the 8 mm PCB.
+- Keep the feed accessible from the service opening and clear of a thread seat.
+- Trial-close the relevant cover with the unpowered strip and wiring in place.
+- Verify electrical operation and intended luminous region before final closure.
+- Run the closed-assembly optical/thermal checks in the [acceptance plan](acceptance-test-plan.md).
+
+Neither R04 nor R05 includes every possible solder joint or connector body. If the chosen strip needs a metal heat-spreading carrier or a larger bend, reassess the CAD clearance rather than forcing it into the reserved envelope.

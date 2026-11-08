@@ -18,3 +18,13 @@ Physical fit of the actual tablet/USB plug/power module; material strength or cr
 Historical R14 CAD service checks and triangle-normal overhang screens are archived evidence with limited scope. They are not physical test certificates. No print-ready G-code or validated multi-plate slicer project is supplied.
 
 Machine-readable evidence: [Android](../verification/android-build.json), [print meshes](../hardware/validation/print-mesh-audit.json), [native CAD](../hardware/validation/native-shape-audit.json), [historical reports](../hardware/validation/r14-baseline).
+
+## Publication and evidence links
+
+The independent [Linux GitHub Actions run](https://github.com/vluncasu/via-oneplus-pad-terminal/actions/runs/42519953773) passed Android compilation, unit tests, Lint and STL checks for the initial publication. The expanded documentation/gallery changes do not revise the Android source or mechanical print geometry.
+
+Use the [requirements matrix](requirements-traceability.md) to see which design requests map to actual parts and which still require physical testing. The [acceptance plan](acceptance-test-plan.md) provides procedures for producing that missing evidence. A test-plan row is not a passed result.
+
+## Expanded documentation edition
+
+The [edition record](../verification/documentation-edition2.json) records 33 captioned renderings, PNG hashes/dimensions and the 28-page handbook with 13 outline entries. All handbook pages were rendered for visual review; local documentation targets and generated catalog consistency were checked. These changes do not alter APKs, CAD geometry or print STLs.

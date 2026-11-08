@@ -1,39 +1,55 @@
-# OnePlus Pad Terminal — Render Gallery
+# VIA OnePlus Pad Terminal — Illustrated Gallery
 
-These views are generated from supplied part meshes, not AI concept images. Materials, emission and translucency illustrate design intent; they are not measured optical or mechanical performance. The background is a custom deep-plum architectural studio. The normal assembled Blender scene is supplied separately.
+**33 real-mesh renderings**, including 20 additional product, service and component views. All figures use the supplied actual component meshes. Materials and intended LED emission are illustrative. Orange objects are non-printable reference envelopes. Covers omitted and section cuts are stated per figure; they do not alter the STL files. The normal [assembled Blender scene](../media/via-oneplus-pad-r14-1-assembled.blend) remains separate.
 
-## Assembled terminal
+## Browse by purpose
 
-![Front three-quarter view of the 3D-printed OnePlus Pad terminal and integrated S stand](../media/renders/01-oneplus-pad-terminal-front.png)
+| Gallery | What it explains |
+|---|---|
+| [Product views](gallery-product.md) | Normal assembled terminal, front/rear elevations, overhead and alternate angles |
+| [Structure and service](gallery-engineering.md) | LED grooves, stand-root reinforcement, cable duct, tablet seating and covers |
+| [Components](gallery-components.md) | Dummy port interiors, optical carrier, sensor detail and printed fasteners |
 
-![Rear three-quarter view showing service covers, recessed port cartridge and continuous stand](../media/renders/02-oneplus-pad-terminal-rear.png)
+## Selected views
 
-![Side view of the single-piece S stand and base-cover transition](../media/renders/03-continuous-s-stand-side.png)
+### Figure 01 — Front three-quarter overview
 
-## Serviceable details
+![Front three-quarter overview](../media/renders/01-oneplus-pad-terminal-front.png)
 
-![Recessed black dummy USB and Ethernet-style ports in the base](../media/renders/04-recessed-dummy-usb-ethernet-ports.png)
+Normal assembled terminal: original tablet front, white structure, one-piece S stand and intended light belts.
 
-![Separate printable optical carrier, decorative sensor face and captive film in assembled positions](../media/renders/05-optical-cassette-assembly.png)
+### Figure 02 — Rear three-quarter overview
 
-![Top service cover and sliding tablet-retention bar with integrated locking pins](../media/renders/06-top-service-locking-bar.png)
+![Rear three-quarter overview](../media/renders/02-oneplus-pad-terminal-rear.png)
 
-## Real internal geometry
+Normal assembled terminal: rear service surfaces and recessed black dummy port cartridge.
 
-![Integrated head LED channel with highlighted reserved strip envelope](../media/renders/07-integrated-head-led-channel.png)
+### Figure 07 — Integrated head LED channel
 
-![Integrated base LED channel with highlighted reserved strip envelope](../media/renders/08-integrated-base-led-channel.png)
+![Integrated head LED channel](../media/renders/07-integrated-head-led-channel.png)
 
-![Stand-root reinforcement visible from below the integrated power-volume cover](../media/renders/09-stand-root-reinforcement.png)
+H01 with R05 orange reserved LED volume. The orange object is not a printable strip or a verified bend solution.
 
-![Section through the explicit cable duct inside the one-piece S stand](../media/renders/10-internal-cable-duct-section.png)
+### Figure 20 — Head with rear covers omitted
 
-Orange solids in channel views are reference keep-out envelopes. The section view removes part of the stand for inspection; the printable B07 file remains a monoblock part.
+![Head with rear covers omitted](../media/renders/20-open-head-tablet-seating.png)
 
-## Printable detail parts
+H01, nominal R01 tablet envelope, optical parts, H05 and head screws remain. H04/H06 omitted for seating inspection.
 
-![Flat-backed one-piece black decorative sensor face](../media/renders/11-flat-print-dummy-sensor-face.png)
+### Figure 22 — Base underside and supply envelope
 
-![Coarse printed head-mount screw](../media/renders/12-printed-head-mount-screw.png)
+![Base underside and supply envelope](../media/renders/22-base-underside-supply-envelope.png)
 
-![Printed spherical screw foot with accessible driver slot](../media/renders/13-printed-spherical-screw-foot.png)
+B01/B07/P01 with orange R02 body envelope; bottom service cover omitted. R02 is not a detailed supply or a clearance qualification.
+
+### Figure 25 — Dummy port cartridge from the front
+
+![Dummy port cartridge from the front](../media/renders/25-dummy-ports-front-detail.png)
+
+P01 is one black printed component. Tongues and recesses are decorative; do not use them as real sockets.
+
+## Use the figures correctly
+
+Use product views for appearance, cover-omitted views for assembly relationships and sections for internal voids. An orange envelope shows reserved space, not a purchased component that has been measured to fit. LED line appearance in a render is not an optical test. Read [interfaces and retention](interfaces-and-retention.md), [LED integration](led-and-wiring.md) and the [physical test plan](acceptance-test-plan.md) before fabrication.
+
+The render source scripts and stable [figure manifest](../media/render-manifest.json) are supplied for reproduction and caption consistency.

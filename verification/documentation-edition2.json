@@ -1,0 +1,17 @@
+{
+  "edition": "R14.1 documentation edition 2",
+  "date": "2026-11-08",
+  "gallery_figures": 33,
+  "additional_figures": 20,
+  "render_manifest": "media/render-manifest.json",
+  "png_hashes_and_dimensions_recorded": true,
+  "handbook_pages": 28,
+  "handbook_bookmarks": 13,
+  "handbook_sha256": "bd48be5fa0848e98e19f8debcc90b02e365fe56baf7314e4b00fb8296ebf64ca",
+  "pdf_pages_rendered_and_visually_reviewed": true,
+  "documentation_links": "local targets checked by scripts/check_documentation.py",
+  "catalog": "regenerated from existing inventory and audit",
+  "android_source_unchanged": true,
+  "hardware_geometry_and_print_files_unchanged": true,
+  "scope": "Publication/documentation checks only; no new physical manufacturing or device qualification."
+}
