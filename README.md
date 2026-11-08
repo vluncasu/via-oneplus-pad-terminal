@@ -18,7 +18,7 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 
 *Assembled R14.1 geometry in a dedicated presentation studio. Finishes, lighting and static VIA screen artwork are staged for visualization.*
 
-**Prototype publication, not a certified payment or biometric access system.** The CAD, print files, real-mesh renders, buildable source, test reports and design rationale are published together. The Android apps do not request the `INTERNET` permission; QR requests and signed Bluetooth LE responses operate locally. The application interface remains Romanian; this repository's documentation and part inventory are English.
+**Prototype publication, not a certified payment or biometric access system.** The CAD, print files, product renders, application source, assembly guides and design rationale are published together. The Android apps do not request the `INTERNET` permission; QR requests and signed Bluetooth LE responses operate locally. The application interface remains Romanian; this repository's documentation and part inventory are English.
 
 ## Start here
 
@@ -34,7 +34,7 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 | Understand LED grooves and wiring | [LED integration](docs/led-and-wiring.md) |
 | Read the academic design rationale | [Engineering design report](docs/design-rationale.md) · [PDF](docs/VIA_Engineering_Design_Report.pdf) |
 | View product and internal renders | [Render gallery](docs/gallery.md) |
-| Check exactly what was tested | [Verification status](docs/verification.md) · [machine-readable mesh audit](hardware/validation/print-mesh-audit.json) |
+| Check exactly what was tested | [Build and fit notes](docs/verification.md) |
 
 ## What's included
 
@@ -50,7 +50,7 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 
 [Download the editable CAD / STEP / STL handoff](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-cad.3)
 
-Open the [clean FreeCAD assembly](hardware/cad/native/VIA_Terminal_R14_1_Editable.FCStd), the [complete assembly STEP](hardware/cad/assembly/VIA_Terminal_R14_1_Assembly.step), or an [individual component STEP](hardware/cad/step). The [editing guide](docs/editing-cad.md) explains direct solid editing and export back to printing. Native CAD contains final editable solids, without requiring a construction macro.
+Open the [clean FreeCAD assembly](hardware/cad/native/VIA_Terminal_R14_1_Editable.FCStd), the [complete assembly STEP](hardware/cad/assembly/VIA_Terminal_R14_1_Assembly.step), or an [individual component STEP](hardware/cad/step). The [editing guide](docs/editing-cad.md) explains direct solid editing and export back to printing. Native CAD contains final editable solids.
 
 ## Expanded documentation downloads
 

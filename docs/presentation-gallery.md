@@ -30,6 +30,6 @@ The display uses a static VIA brand plate derived from the project's app mark. I
 
 ## Download and edit the presentation
 
-[Download the full-resolution images and editable Blender studio](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/download/r14.1-cad.3/VIA_Presentation_Studio_R14_1.zip). The studio is supplied as an assembled `.blend` scene with its display texture packed. Change cameras, lights and materials directly in Blender; no construction script is included.
+[Download the full-resolution images and editable Blender studio](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/download/r14.1-cad.3/VIA_Presentation_Studio_R14_1.zip). The studio is supplied as an assembled `.blend` scene with its display texture packed. Change cameras, lights and materials directly in Blender.
 
-The [presentation manifest](../media/presentation/manifest.json) records image dimensions and hashes. JPEGs are used on the GitHub landing page for faster loading; PNG masters retain the full rendered resolution.
+JPEGs are used on the GitHub landing page for faster loading; PNG masters retain the full rendered resolution.

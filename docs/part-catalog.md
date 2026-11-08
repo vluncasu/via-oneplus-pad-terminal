@@ -1,6 +1,6 @@
 # Printable Part Catalog
 
-Generated from the release inventory. Bounds are X × Y × Z in the **supplied STL print orientation**, not assembly dimensions. Numbers are rounded to two decimals. Quantity is the total copies of the one file; reference objects R01–R05 are excluded.
+Parts, quantities and filament groups for the R14.1 enclosure. Bounds are X × Y × Z in the **supplied STL print orientation**, not assembly dimensions. Numbers are rounded to two decimals. Quantity is the total copies of the one file; reference objects R01–R05 are excluded.
 
 | Required color group | Unique files | Printed pieces |
 |---|---:|---:|

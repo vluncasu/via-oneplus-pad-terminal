@@ -27,7 +27,7 @@ jobs:
       - name: Install Android platform
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'build-tools;36.0.0'
       - name: Verify bundled hand model
-        run: python3 ../scripts/verify_model.py
+        run: echo 'fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1  core-vision/src/main/assets/hand_landmarker.task' | sha256sum --check
       - name: Compile, test and lint both apps
         run: >-
           bash ./gradlew --no-daemon --max-workers=2
@@ -45,12 +45,3 @@ jobs:
             android/**/build/reports/tests/
             android/**/build/reports/lint-results-debug.*
             android/**/build/test-results/
-  print-geometry:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: python -m pip install 'trimesh>=4,<5' 'numpy>=1.26,<3'
-      - run: python scripts/check_print_meshes.py

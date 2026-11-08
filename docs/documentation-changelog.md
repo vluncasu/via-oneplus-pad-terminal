@@ -1,25 +1,19 @@
-# Documentation Editions
+# Release Notes
 
-## Editable CAD handoff — 8 November 2026
+## R14.1 hardware files
 
-Added a clean 30-component FreeCAD assembly and whole-assembly STEP with round-trip checks. Current hardware delivery uses native CAD, STEP and STL files; historical construction/render source is omitted. Native revision snapshots remain available for comparison. Application source and mechanical geometry are unchanged.
+- Clean 30-component FreeCAD assembly and complete assembly STEP.
+- Seventeen unique required component families, with quantity-named STLs separated by filament color.
+- Current O05 optical film at 0.20 mm; 0.40 mm retained as an alternative.
+- One-piece integrated S stand and upper power-volume cover, internal cable route, integrated LED seating and upper-rear tablet service access.
+- Native earlier revisions retained for comparison.
 
+## Guides and illustrations
 
-## Expanded illustrated edition — 8 November 2026
+The documentation includes a part catalog, printing and assembly instructions, CAD editing guide, LED/wiring notes and practical fit checks. Thirty-three engineering illustrations show component relationships and internal sections; four studio views present the assembled terminal.
 
-Hardware remains R14.1 and applications remain 1.0.5. No structural shape, print STL, native CAD geometry, Android behavior or official APK is changed in this edition.
+The illustrated handbook and engineering design report accompany the files. The normal assembly and studio scenes can be opened directly in Blender.
 
-- Gallery expanded from 13 to **33 actual-mesh figures**: normal assembled elevations and alternate product views; rear-cover/tablet seating; stand-root and supply-envelope views; bottom service fasteners; dummy port front/rear detail; optical service access; opposite cable-duct section; rear vents and sensor relief.
-- Gallery split by purpose: product, engineering and components. Each figure has a stable ID, a descriptive caption and visibility/reference notes.
-- English part catalog generated from the inventory and audit, including quantity, filament and exported bounds.
-- Added manufacturing gates, interface/retention explanation, fastener/service map and dimension/clearance notes.
-- Expanded assembly and internal LED/wiring chapters with actual-mesh illustrations and functional diagrams.
-- Added physical acceptance procedures, requirements-to-evidence matrix, troubleshooting and the ten-minute local demo runbook.
-- Added the illustrated handbook PDF with chapter bookmarks, readable tables and linked source chapters.
-- Added documentation checks for local links, gallery images/captions and catalog reproduction.
+## Android 1.0.5
 
-Download the [expanded documentation edition](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-docs.2). Official app installers remain in the [1.0.5 application release](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/v1.0.5).
-
-## Initial consolidated publication
-
-English source/CAD publication, R14 baseline plus O05 0.20 mm film amendment, official 1.0.5 demo APKs, 13 renders, design report and scoped build/geometry evidence. The independent [Linux build and mesh check](https://github.com/vluncasu/via-oneplus-pad-terminal/actions/runs/42519953773) passed. That result is not a physical manufacturing or device-interoperability qualification.
+VIA Terminal and VIA Mobile use local named profiles and QR/BLE confirmation. Bluetooth retry and Mobile Back navigation are covered by the regression tests. Installers are in the [application release](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/v1.0.5).

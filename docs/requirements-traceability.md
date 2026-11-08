@@ -33,4 +33,4 @@ This matrix condenses the design decisions and corrections that shaped VIA. “P
 | Correct retry / Mobile Back | Adapter retry handling; Home navigation | Regression tests; lifecycle/radio checks on devices |
 | Inspect a normal assembled model | Delivered English-labeled Blender scene | Opens assembled; sectioned figures are separate illustrations |
 
-Source artifacts: [CAD provenance](cad-and-validation.md), [verification](verification.md), [part inventory](../hardware/parts.json), [software](software.md). There is no claim of a certified payment system, dust filter, thermal rating or secure biometric identity.
+Source artifacts: [CAD provenance](cad-and-validation.md), [verification](verification.md), [parts and quantities](../hardware/BOM.csv), [software](software.md). There is no claim of a certified payment system, dust filter, thermal rating or secure biometric identity.

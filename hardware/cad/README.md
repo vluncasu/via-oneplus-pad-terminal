@@ -22,4 +22,4 @@ The component STEP folder root contains 17 unique required file families. Option
 
 The engineering native file `via-oneplus-pad-r14-1-film-020.FCStd` also retains reference/probe objects. The baseline native file retains the older 0.40 mm film. For a normal clean assembly, use the highlighted file above; current O05 is 0.20 mm.
 
-There are no part-generation macros in this handoff. Historical snapshots are native CAD files. Reference objects R01–R05 are not printed. The [assembly-delivery audit](../validation/editable-delivery.json) checks the new native/STEP exports; it is not a physical fit or manufacturing certificate.
+Historical snapshots are native CAD files. Reference objects R01–R05 are not printed. See the [build and fit notes](../../docs/verification.md) and the physical checks in the assembly guide.

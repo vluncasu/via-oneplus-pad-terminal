@@ -43,4 +43,4 @@ CAD voids are intentional geometry. Keep the cable duct, electronics cavity, ser
 
 Test assembly before sanding and paint. Keep threads, guides, clearances and luminous zones masked. Avoid aggressive chemical smoothing near dimensional datums. No mass, print time or filament-consumption promise is made without a slicer profile and chosen material.
 
-Machine-readable [print audit](../hardware/validation/print-mesh-audit.json) and [BOM](../hardware/BOM.csv) accompany the files.
+Use the [BOM](../hardware/BOM.csv), [part catalog](part-catalog.md) and [assembly guide](assembly.md) alongside the print files.
