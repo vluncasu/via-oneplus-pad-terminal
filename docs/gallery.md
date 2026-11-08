@@ -1,5 +1,7 @@
 # VIA OnePlus Pad Terminal — Illustrated Gallery
 
+[New product presentation gallery](presentation-gallery.md): four studio views with static VIA branding, revised lighting and full-resolution downloads. The 33 engineering figures below retain their original figure IDs.
+
 **33 real-mesh renderings**, including 20 additional product, service and component views. All figures use the supplied actual component meshes. Materials and intended LED emission are illustrative. Orange objects are non-printable reference envelopes. Covers omitted and section cuts are stated per figure; they do not alter the STL files. The normal [assembled Blender scene](../media/via-oneplus-pad-r14-1-assembled.blend) remains separate.
 
 ## Browse by purpose

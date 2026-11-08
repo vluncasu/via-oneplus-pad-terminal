@@ -7,13 +7,22 @@ A **3D-printable OnePlus Pad OPD2203 kiosk enclosure** with a continuous S-shape
 ![Software](https://img.shields.io/badge/Android-1.0.5-green)
 ![Runtime](https://img.shields.io/badge/runtime-offline-informational)
 
-![White OnePlus Pad kiosk enclosure with integrated S stand and warm LED transmission belts](media/renders/01-oneplus-pad-terminal-front.png)
+[Android apps](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/v1.0.5) · [Editable CAD / STEP / STL](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-cad.3) · [Product gallery](docs/presentation-gallery.md) · [Build documentation](docs/README.md)
+
+![VIA OnePlus Pad terminal in a midnight-blue studio, satin white enclosure and warm integrated light belts](media/presentation/01-front-hero.jpg)
+
+<p align="center">
+  <img src="media/presentation/02-rear-architecture.jpg" width="49%" alt="Rear view showing the continuous S stand, service covers and recessed dummy ports" />
+  <img src="media/presentation/03-sculpted-profile.jpg" width="49%" alt="Profile of the assembled OnePlus Pad enclosure and its integrated illuminated base" />
+</p>
+
+*Assembled R14.1 geometry in a dedicated presentation studio. Finishes, lighting and static VIA screen artwork are staged for visualization.*
 
 **Prototype publication, not a certified payment or biometric access system.** The CAD, print files, real-mesh renders, buildable source, test reports and design rationale are published together. The Android apps do not request the `INTERNET` permission; QR requests and signed Bluetooth LE responses operate locally. The application interface remains Romanian; this repository's documentation and part inventory are English.
 
 ## Start here
 
-[Engineering documentation](docs/README.md) · [Illustrated handbook PDF](docs/VIA_Assembly_and_Demo_Handbook.pdf) · [33-view gallery](docs/gallery.md) · [Part catalog](docs/part-catalog.md) · [Demo runbook](docs/demo-runbook.md)
+[Engineering documentation](docs/README.md) · [Illustrated handbook PDF](docs/VIA_Assembly_and_Demo_Handbook.pdf) · [Product studio gallery](docs/presentation-gallery.md) · [33-view engineering gallery](docs/gallery.md) · [Part catalog](docs/part-catalog.md) · [Demo runbook](docs/demo-runbook.md)
 
 | Goal | Where to go |
 |---|---|
@@ -47,11 +56,13 @@ Open the [clean FreeCAD assembly](hardware/cad/native/VIA_Terminal_R14_1_Editabl
 
 The [expanded illustrated edition](https://github.com/vluncasu/via-oneplus-pad-terminal/releases/tag/r14.1-docs.2) contains the 33-view gallery and 28-page assembly/demo handbook. APKs remain in the 1.0.5 application release above. See the [documentation changelog](docs/documentation-changelog.md) for the exact scope.
 
-## Illustrated construction
+## Integrated details
 
-![Internal head with rear covers omitted, showing the nominal tablet seating](media/renders/20-open-head-tablet-seating.png)
+![Close-up of the one-piece recessed dummy port cartridge, printed ventilation and warm light belt in the terminal base](media/presentation/04-light-and-port-detail.jpg)
 
-![Recessed one-piece dummy port cartridge with printed internal detail](media/renders/25-dummy-ports-front-detail.png)
+[Full-resolution presentation images and editable studio](docs/presentation-gallery.md) · [Internal structure and assembly views](docs/gallery-engineering.md)
+
+Inspect the [open head assembly](media/renders/20-open-head-tablet-seating.png) and [separate port cartridge](media/renders/25-dummy-ports-front-detail.png) in the engineering views.
 
 The [engineering gallery](docs/gallery-engineering.md) explains omitted covers, reference volumes and section cuts. Follow the [manufacturing workflow](docs/manufacturing-workflow.md), [fastener map](docs/fasteners-and-service.md) and [acceptance plan](docs/acceptance-test-plan.md) to move from CAD to a recorded physical build.
 
