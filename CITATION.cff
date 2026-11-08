@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the repository and the specific software/hardware revision you used."
+title: "VIA: OnePlus Pad Terminal Enclosure and Offline Android Demonstrator"
+authors:
+  - name: "VIA project contributors"
+version: "1.0.5 / R14.1"
+date-released: "2026-11-08"
+url: "https://github.com/vluncasu/via-oneplus-pad-terminal"
+repository-code: "https://github.com/vluncasu/via-oneplus-pad-terminal"
+keywords:
+  - OnePlus Pad
+  - OPD2203
+  - 3D printing
+  - tablet enclosure
+  - offline Android
+  - Bluetooth Low Energy
+  - design for additive manufacturing

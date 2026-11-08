@@ -1,0 +1,534 @@
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Configure project :app-mobile
+WARNING: The option setting 'android.defaults.buildfeatures.buildconfig=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+To keep using this feature, add the following to your module-level build.gradle files:
+    android.buildFeatures.buildConfig = true
+or from Android Studio, click: `Refactor` > `Migrate BuildConfig to Gradle Build Files`.
+
+> Task :core-crypto:preBuild UP-TO-DATE
+> Task :core-hardware:preBuild UP-TO-DATE
+> Task :core-model:preBuild UP-TO-DATE
+> Task :core-vision:preBuild UP-TO-DATE
+> Task :core-ui:preBuild UP-TO-DATE
+> Task :core-network:preBuild UP-TO-DATE
+> Task :app-mobile:preBuild UP-TO-DATE
+> Task :app-terminal:preBuild UP-TO-DATE
+> Task :core-storage:preBuild UP-TO-DATE
+> Task :core-ui:preDebugBuild UP-TO-DATE
+> Task :core-model:preDebugBuild UP-TO-DATE
+> Task :app-terminal:preDebugBuild UP-TO-DATE
+> Task :core-network:preDebugBuild UP-TO-DATE
+> Task :core-vision:preDebugBuild UP-TO-DATE
+> Task :app-mobile:preDebugBuild UP-TO-DATE
+> Task :core-storage:preDebugBuild UP-TO-DATE
+> Task :core-hardware:preDebugBuild UP-TO-DATE
+> Task :core-crypto:preDebugBuild UP-TO-DATE
+> Task :app-mobile:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app-terminal:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app-terminal:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app-mobile:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app-mobile:generateDebugBuildConfig FROM-CACHE
+> Task :app-terminal:generateDebugBuildConfig FROM-CACHE
+> Task :core-model:processDebugNavigationResources FROM-CACHE
+> Task :core-vision:processDebugNavigationResources FROM-CACHE
+> Task :core-crypto:processDebugNavigationResources FROM-CACHE
+> Task :core-hardware:processDebugNavigationResources FROM-CACHE
+> Task :core-storage:processDebugNavigationResources FROM-CACHE
+> Task :core-network:processDebugNavigationResources FROM-CACHE
+> Task :core-ui:processDebugNavigationResources FROM-CACHE
+> Task :app-mobile:generateDebugResources FROM-CACHE
+> Task :app-terminal:generateDebugResources FROM-CACHE
+> Task :core-ui:writeDebugAarMetadata
+> Task :core-network:writeDebugAarMetadata
+> Task :core-vision:writeDebugAarMetadata
+> Task :core-crypto:writeDebugAarMetadata
+> Task :core-hardware:writeDebugAarMetadata
+> Task :core-model:writeDebugAarMetadata
+> Task :core-storage:writeDebugAarMetadata
+> Task :core-hardware:generateDebugResources FROM-CACHE
+> Task :core-vision:generateDebugResources FROM-CACHE
+> Task :core-model:generateDebugResources FROM-CACHE
+> Task :core-ui:generateDebugResources FROM-CACHE
+> Task :core-network:generateDebugResources FROM-CACHE
+> Task :core-storage:generateDebugResources FROM-CACHE
+> Task :core-crypto:generateDebugResources FROM-CACHE
+> Task :core-hardware:packageDebugResources FROM-CACHE
+> Task :core-network:packageDebugResources FROM-CACHE
+> Task :core-storage:packageDebugResources FROM-CACHE
+> Task :core-vision:packageDebugResources FROM-CACHE
+> Task :core-ui:packageDebugResources FROM-CACHE
+> Task :core-model:packageDebugResources FROM-CACHE
+> Task :core-crypto:packageDebugResources FROM-CACHE
+> Task :core-network:extractDeepLinksDebug FROM-CACHE
+> Task :core-hardware:extractDeepLinksDebug FROM-CACHE
+> Task :core-storage:extractDeepLinksDebug FROM-CACHE
+> Task :core-crypto:extractDeepLinksDebug FROM-CACHE
+> Task :core-model:extractDeepLinksDebug FROM-CACHE
+> Task :core-vision:extractDeepLinksDebug FROM-CACHE
+> Task :core-ui:extractDeepLinksDebug FROM-CACHE
+> Task :core-network:processDebugManifest FROM-CACHE
+> Task :core-hardware:processDebugManifest FROM-CACHE
+> Task :core-storage:processDebugManifest FROM-CACHE
+> Task :core-crypto:processDebugManifest FROM-CACHE
+> Task :core-model:processDebugManifest FROM-CACHE
+> Task :core-ui:processDebugManifest FROM-CACHE
+> Task :core-vision:processDebugManifest FROM-CACHE
+> Task :core-hardware:compileDebugLibraryResources FROM-CACHE
+> Task :core-network:compileDebugLibraryResources FROM-CACHE
+> Task :core-ui:compileDebugLibraryResources FROM-CACHE
+> Task :core-model:compileDebugLibraryResources FROM-CACHE
+> Task :core-crypto:compileDebugLibraryResources FROM-CACHE
+> Task :core-vision:compileDebugLibraryResources FROM-CACHE
+> Task :core-storage:compileDebugLibraryResources FROM-CACHE
+> Task :core-ui:parseDebugLocalResources FROM-CACHE
+> Task :core-model:parseDebugLocalResources FROM-CACHE
+> Task :core-hardware:parseDebugLocalResources FROM-CACHE
+> Task :core-vision:parseDebugLocalResources FROM-CACHE
+> Task :core-crypto:parseDebugLocalResources FROM-CACHE
+> Task :core-storage:parseDebugLocalResources FROM-CACHE
+> Task :core-network:parseDebugLocalResources FROM-CACHE
+> Task :core-vision:generateDebugRFile FROM-CACHE
+> Task :core-network:generateDebugRFile FROM-CACHE
+> Task :core-network:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-vision:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-storage:generateDebugRFile FROM-CACHE
+> Task :core-model:generateDebugRFile FROM-CACHE
+> Task :core-crypto:generateDebugRFile FROM-CACHE
+> Task :core-hardware:generateDebugRFile FROM-CACHE
+> Task :core-ui:generateDebugRFile FROM-CACHE
+> Task :core-storage:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-model:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-hardware:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-ui:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-crypto:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core-storage:generateDebugBuildConfig FROM-CACHE
+> Task :core-network:generateDebugBuildConfig FROM-CACHE
+> Task :core-ui:generateDebugBuildConfig FROM-CACHE
+> Task :core-model:generateDebugBuildConfig FROM-CACHE
+> Task :core-crypto:generateDebugBuildConfig FROM-CACHE
+> Task :core-vision:generateDebugBuildConfig FROM-CACHE
+> Task :core-hardware:generateDebugBuildConfig FROM-CACHE
+> Task :core-network:javaPreCompileDebug FROM-CACHE
+> Task :core-storage:javaPreCompileDebug FROM-CACHE
+> Task :core-crypto:javaPreCompileDebug FROM-CACHE
+> Task :core-crypto:mergeDebugShaders
+> Task :core-network:mergeDebugShaders
+> Task :core-storage:mergeDebugShaders
+> Task :core-crypto:compileDebugShaders NO-SOURCE
+> Task :core-network:compileDebugShaders NO-SOURCE
+> Task :core-storage:compileDebugShaders NO-SOURCE
+> Task :core-crypto:generateDebugAssets UP-TO-DATE
+> Task :core-storage:generateDebugAssets UP-TO-DATE
+> Task :core-network:generateDebugAssets UP-TO-DATE
+> Task :core-storage:mergeDebugAssets
+> Task :core-network:mergeDebugAssets
+> Task :core-crypto:mergeDebugAssets
+> Task :core-storage:mergeDebugJniLibFolders
+> Task :core-crypto:mergeDebugJniLibFolders
+> Task :core-network:mergeDebugJniLibFolders
+> Task :core-crypto:mergeDebugNativeLibs NO-SOURCE
+> Task :core-storage:mergeDebugNativeLibs NO-SOURCE
+> Task :core-network:mergeDebugNativeLibs NO-SOURCE
+> Task :core-storage:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-crypto:copyDebugJniLibsProjectOnly
+> Task :core-network:copyDebugJniLibsProjectOnly
+> Task :core-storage:copyDebugJniLibsProjectOnly
+> Task :core-crypto:stripDebugDebugSymbols NO-SOURCE
+> Task :core-network:stripDebugDebugSymbols NO-SOURCE
+> Task :core-crypto:copyDebugJniLibsProjectAndLocalJars
+> Task :core-crypto:checkDebugAarMetadata
+> Task :core-network:checkDebugAarMetadata
+> Task :core-network:copyDebugJniLibsProjectAndLocalJars
+> Task :core-crypto:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-network:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-crypto:prepareDebugArtProfile
+> Task :core-network:prepareDebugArtProfile
+> Task :core-network:prepareLintJarForPublish
+> Task :core-crypto:prepareLintJarForPublish
+> Task :core-crypto:writeDebugLintModelMetadata
+> Task :core-network:writeDebugLintModelMetadata
+> Task :core-crypto:extractProguardFiles
+> Task :core-network:extractProguardFiles
+> Task :core-crypto:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-crypto:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-network:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-network:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-hardware:compileDebugKotlin FROM-CACHE
+> Task :core-hardware:javaPreCompileDebug FROM-CACHE
+> Task :core-model:compileDebugKotlin FROM-CACHE
+> Task :core-model:javaPreCompileDebug FROM-CACHE
+> Task :core-vision:compileDebugKotlin FROM-CACHE
+> Task :core-vision:javaPreCompileDebug FROM-CACHE
+> Task :core-storage:checkDebugUnitTestAarMetadata
+> Task :core-storage:mapDebugUnitTestSourceSetPaths
+> Task :app-terminal:processDebugNavigationResources FROM-CACHE
+> Task :app-mobile:processDebugNavigationResources FROM-CACHE
+> Task :core-storage:generateDebugUnitTestResources FROM-CACHE
+> Task :core-storage:mergeDebugUnitTestResources FROM-CACHE
+> Task :app-terminal:compileDebugNavigationResources FROM-CACHE
+> Task :app-mobile:compileDebugNavigationResources FROM-CACHE
+> Task :app-mobile:checkDebugAarMetadata
+> Task :app-terminal:checkDebugAarMetadata
+> Task :core-ui:compileDebugKotlin FROM-CACHE
+> Task :app-mobile:mapDebugSourceSetPaths
+> Task :app-terminal:mapDebugSourceSetPaths
+> Task :core-ui:javaPreCompileDebug FROM-CACHE
+> Task :core-storage:processDebugUnitTestManifest
+> Task :core-storage:processDebugUnitTestResources FROM-CACHE
+> Task :core-storage:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :core-storage:generateDebugUnitTestAssets UP-TO-DATE
+> Task :core-storage:stripDebugDebugSymbols NO-SOURCE
+> Task :core-storage:checkDebugAarMetadata
+> Task :core-storage:copyDebugJniLibsProjectAndLocalJars
+> Task :core-storage:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-storage:prepareDebugArtProfile
+> Task :core-storage:prepareLintJarForPublish
+> Task :core-storage:writeDebugLintModelMetadata
+> Task :core-storage:extractProguardFiles
+> Task :core-storage:preDebugAndroidTestBuild UP-TO-DATE
+> Task :app-mobile:mergeDebugResources FROM-CACHE
+> Task :app-terminal:mergeDebugResources FROM-CACHE
+> Task :app-terminal:packageDebugResources FROM-CACHE
+> Task :app-mobile:packageDebugResources FROM-CACHE
+> Task :app-mobile:parseDebugLocalResources FROM-CACHE
+> Task :app-terminal:parseDebugLocalResources FROM-CACHE
+> Task :app-terminal:createDebugCompatibleScreenManifests
+> Task :app-mobile:createDebugCompatibleScreenManifests
+> Task :app-mobile:extractDeepLinksDebug FROM-CACHE
+> Task :app-terminal:extractDeepLinksDebug FROM-CACHE
+> Task :app-terminal:processDebugMainManifest FROM-CACHE
+> Task :app-mobile:processDebugMainManifest FROM-CACHE
+> Task :app-terminal:processDebugManifest FROM-CACHE
+> Task :app-mobile:processDebugManifest FROM-CACHE
+> Task :app-terminal:processDebugManifestForPackage FROM-CACHE
+> Task :app-mobile:processDebugManifestForPackage FROM-CACHE
+> Task :app-terminal:processDebugResources FROM-CACHE
+> Task :app-mobile:processDebugResources FROM-CACHE
+> Task :app-terminal:javaPreCompileDebug FROM-CACHE
+> Task :app-mobile:javaPreCompileDebug FROM-CACHE
+> Task :app-mobile:mergeDebugShaders
+> Task :app-terminal:mergeDebugShaders
+> Task :app-terminal:compileDebugShaders NO-SOURCE
+> Task :app-mobile:compileDebugShaders NO-SOURCE
+> Task :app-mobile:generateDebugAssets UP-TO-DATE
+> Task :app-terminal:generateDebugAssets UP-TO-DATE
+> Task :app-mobile:desugarDebugFileDependencies FROM-CACHE
+> Task :app-terminal:desugarDebugFileDependencies FROM-CACHE
+> Task :app-terminal:mergeDebugJniLibFolders
+> Task :app-mobile:mergeDebugJniLibFolders
+> Task :app-mobile:validateSigningDebug
+> Task :app-terminal:validateSigningDebug
+> Task :app-terminal:writeDebugAppMetadata
+> Task :app-mobile:writeDebugAppMetadata
+> Task :core-hardware:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-vision:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-model:compileDebugJavaWithJavac FROM-CACHE
+> Task :app-mobile:checkDebugDuplicateClasses
+> Task :app-terminal:checkDebugDuplicateClasses
+> Task :app-mobile:writeDebugSigningConfigVersions
+> Task :app-terminal:writeDebugSigningConfigVersions
+> Task :core-hardware:mergeDebugShaders
+> Task :core-vision:mergeDebugShaders
+> Task :core-model:mergeDebugShaders
+> Task :core-model:compileDebugShaders NO-SOURCE
+> Task :core-vision:compileDebugShaders NO-SOURCE
+> Task :core-hardware:compileDebugShaders NO-SOURCE
+> Task :core-model:generateDebugAssets UP-TO-DATE
+> Task :core-hardware:generateDebugAssets UP-TO-DATE
+> Task :core-vision:generateDebugAssets UP-TO-DATE
+> Task :core-hardware:mergeDebugAssets
+> Task :core-ui:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-hardware:bundleLibCompileToJarDebug
+> Task :core-model:bundleLibCompileToJarDebug
+> Task :core-ui:mergeDebugShaders
+> Task :core-model:mergeDebugAssets
+> Task :core-vision:bundleLibCompileToJarDebug
+> Task :core-ui:compileDebugShaders NO-SOURCE
+> Task :core-ui:generateDebugAssets UP-TO-DATE
+> Task :core-ui:bundleLibCompileToJarDebug
+> Task :core-hardware:bundleLibRuntimeToJarDebug
+> Task :core-hardware:processDebugJavaRes
+> Task :core-ui:mergeDebugAssets
+> Task :core-storage:mergeDebugUnitTestAssets
+> Task :core-vision:mergeDebugAssets
+> Task :core-ui:bundleLibRuntimeToJarDebug
+> Task :core-hardware:mergeDebugJniLibFolders
+> Task :core-model:processDebugJavaRes
+> Task :core-hardware:mergeDebugNativeLibs NO-SOURCE
+> Task :core-model:bundleLibRuntimeToJarDebug
+> Task :core-hardware:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-ui:processDebugJavaRes
+> Task :core-hardware:copyDebugJniLibsProjectOnly
+> Task :core-vision:bundleLibRuntimeToJarDebug
+> Task :core-model:mergeDebugJniLibFolders
+> Task :core-vision:processDebugJavaRes
+> Task :core-model:mergeDebugNativeLibs NO-SOURCE
+> Task :core-ui:mergeDebugJniLibFolders
+> Task :core-model:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-ui:bundleLibRuntimeToDirDebug
+> Task :core-model:copyDebugJniLibsProjectOnly
+> Task :core-ui:mergeDebugNativeLibs NO-SOURCE
+> Task :core-vision:mergeDebugJniLibFolders
+> Task :core-hardware:generateDebugUnitTestStubRFile FROM-CACHE
+> Task :core-hardware:bundleLibRuntimeToDirDebug
+> Task :core-vision:mergeDebugNativeLibs NO-SOURCE
+> Task :core-model:generateDebugUnitTestStubRFile FROM-CACHE
+> Task :core-ui:copyDebugJniLibsProjectOnly
+> Task :core-vision:copyDebugJniLibsProjectOnly
+> Task :core-vision:bundleLibRuntimeToDirDebug
+> Task :core-ui:stripDebugDebugSymbols NO-SOURCE
+> Task :core-ui:copyDebugJniLibsProjectAndLocalJars
+> Task :core-ui:checkDebugAarMetadata
+> Task :core-crypto:compileDebugKotlin FROM-CACHE
+> Task :core-network:compileDebugKotlin FROM-CACHE
+> Task :core-model:bundleLibRuntimeToDirDebug
+> Task :core-vision:stripDebugDebugSymbols NO-SOURCE
+> Task :core-vision:checkDebugAarMetadata
+> Task :core-vision:copyDebugJniLibsProjectAndLocalJars
+> Task :core-crypto:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-ui:extractDebugAnnotations FROM-CACHE
+> Task :core-ui:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-network:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-crypto:bundleLibCompileToJarDebug
+> Task :core-ui:mergeDebugGeneratedProguardFiles
+> Task :core-crypto:bundleLibRuntimeToJarDebug
+> Task :core-storage:packageDebugUnitTestForUnitTest
+> Task :core-ui:mergeDebugConsumerProguardFiles
+> Task :core-network:bundleLibCompileToJarDebug
+> Task :core-crypto:processDebugJavaRes
+> Task :core-vision:extractDebugAnnotations FROM-CACHE
+> Task :core-ui:prepareDebugArtProfile
+> Task :core-network:bundleLibRuntimeToJarDebug
+> Task :core-hardware:compileDebugUnitTestKotlin FROM-CACHE
+> Task :core-vision:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-network:processDebugJavaRes
+> Task :core-vision:mergeDebugGeneratedProguardFiles
+> Task :core-hardware:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :core-ui:prepareLintJarForPublish
+> Task :core-vision:mergeDebugConsumerProguardFiles
+> Task :core-hardware:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core-crypto:bundleLibRuntimeToDirDebug
+> Task :core-model:compileDebugUnitTestKotlin FROM-CACHE
+> Task :core-vision:prepareDebugArtProfile
+> Task :core-storage:generateDebugUnitTestConfig
+> Task :core-crypto:extractDebugAnnotations FROM-CACHE
+> Task :core-model:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :core-vision:prepareLintJarForPublish
+> Task :core-crypto:mergeDebugGeneratedProguardFiles
+> Task :core-model:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core-crypto:mergeDebugConsumerProguardFiles
+> Task :core-network:extractDebugAnnotations FROM-CACHE
+> Task :core-ui:createFullJarDebug
+> Task :core-network:mergeDebugGeneratedProguardFiles
+> Task :core-hardware:processDebugUnitTestJavaRes
+> Task :core-ui:writeDebugLintModelMetadata
+> Task :core-network:mergeDebugConsumerProguardFiles
+> Task :core-network:bundleLibRuntimeToDirDebug
+> Task :core-model:processDebugUnitTestJavaRes
+> Task :core-vision:createFullJarDebug
+> Task :core-crypto:createFullJarDebug
+> Task :core-ui:extractProguardFiles
+> Task :core-vision:writeDebugLintModelMetadata
+> Task :core-network:createFullJarDebug
+> Task :core-vision:extractProguardFiles
+> Task :core-model:testDebugUnitTest FROM-CACHE
+> Task :core-model:checkDebugAarMetadata
+> Task :core-model:stripDebugDebugSymbols NO-SOURCE
+> Task :core-hardware:testDebugUnitTest FROM-CACHE
+> Task :core-model:copyDebugJniLibsProjectAndLocalJars
+> Task :core-hardware:stripDebugDebugSymbols NO-SOURCE
+> Task :core-hardware:checkDebugAarMetadata
+> Task :core-hardware:copyDebugJniLibsProjectAndLocalJars
+> Task :core-model:extractDebugAnnotations FROM-CACHE
+> Task :core-model:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-model:mergeDebugGeneratedProguardFiles
+> Task :core-model:mergeDebugConsumerProguardFiles
+> Task :core-hardware:extractDebugAnnotations FROM-CACHE
+> Task :core-model:prepareDebugArtProfile
+> Task :core-hardware:extractDeepLinksForAarDebug FROM-CACHE
+> Task :core-model:prepareLintJarForPublish
+> Task :core-hardware:mergeDebugGeneratedProguardFiles
+> Task :core-hardware:mergeDebugConsumerProguardFiles
+> Task :core-hardware:prepareDebugArtProfile
+> Task :core-hardware:prepareLintJarForPublish
+> Task :core-model:createFullJarDebug
+> Task :core-model:writeDebugLintModelMetadata
+> Task :core-hardware:createFullJarDebug
+> Task :core-storage:compileDebugKotlin FROM-CACHE
+> Task :core-hardware:writeDebugLintModelMetadata
+> Task :core-model:extractProguardFiles
+> Task :core-hardware:extractProguardFiles
+> Task :core-hardware:mergeDebugJavaResource
+> Task :core-crypto:mergeDebugJavaResource
+> Task :core-network:mergeDebugJavaResource
+> Task :core-model:mergeDebugJavaResource
+> Task :core-vision:mergeDebugJavaResource
+> Task :core-ui:mergeDebugJavaResource
+> Task :core-crypto:syncDebugLibJars FROM-CACHE
+> Task :core-storage:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-network:syncDebugLibJars FROM-CACHE
+> Task :core-storage:bundleLibCompileToJarDebug
+> Task :core-storage:bundleLibRuntimeToJarDebug
+> Task :core-storage:processDebugJavaRes
+> Task :core-crypto:bundleDebugLocalLintAar
+> Task :core-network:bundleDebugLocalLintAar
+> Task :core-storage:bundleLibRuntimeToDirDebug
+> Task :core-storage:compileDebugUnitTestKotlin FROM-CACHE
+> Task :core-storage:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core-storage:processDebugUnitTestJavaRes
+> Task :core-storage:testDebugUnitTest FROM-CACHE
+> Task :core-storage:extractDebugAnnotations FROM-CACHE
+> Task :core-storage:mergeDebugGeneratedProguardFiles
+> Task :core-storage:mergeDebugConsumerProguardFiles
+> Task :core-storage:mergeDebugJavaResource
+> Task :core-storage:createFullJarDebug
+> Task :core-storage:syncDebugLibJars FROM-CACHE
+> Task :core-storage:bundleDebugLocalLintAar
+> Task :app-mobile:mergeExtDexDebug FROM-CACHE
+> Task :app-terminal:mergeExtDexDebug FROM-CACHE
+> Task :core-model:generateDebugLintModel
+> Task :core-hardware:generateDebugLintModel
+> Task :core-ui:generateDebugLintModel
+> Task :core-vision:generateDebugLintModel
+> Task :core-hardware:syncDebugLibJars FROM-CACHE
+> Task :core-model:syncDebugLibJars FROM-CACHE
+> Task :core-ui:syncDebugLibJars FROM-CACHE
+> Task :core-vision:syncDebugLibJars FROM-CACHE
+> Task :core-crypto:generateDebugLintModel
+> Task :core-network:generateDebugLintModel
+> Task :core-hardware:bundleDebugLocalLintAar
+> Task :core-model:bundleDebugLocalLintAar
+> Task :core-ui:bundleDebugLocalLintAar
+> Task :core-model:lintAnalyzeDebug FROM-CACHE
+> Task :core-model:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-hardware:lintAnalyzeDebug FROM-CACHE
+> Task :core-hardware:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-storage:generateDebugLintModel
+> Task :core-ui:lintAnalyzeDebug FROM-CACHE
+> Task :core-ui:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-hardware:generateDebugAndroidTestLintModel
+> Task :core-crypto:lintAnalyzeDebug FROM-CACHE
+> Task :core-network:lintAnalyzeDebug FROM-CACHE
+> Task :app-mobile:compileDebugKotlin FROM-CACHE
+> Task :core-vision:bundleDebugLocalLintAar
+> Task :core-model:generateDebugAndroidTestLintModel
+> Task :core-hardware:generateDebugUnitTestLintModel
+> Task :core-crypto:generateDebugAndroidTestLintModel
+> Task :core-storage:generateDebugAndroidTestLintModel
+> Task :core-model:generateDebugUnitTestLintModel
+> Task :app-terminal:compileDebugKotlin FROM-CACHE
+> Task :core-network:generateDebugAndroidTestLintModel
+> Task :core-hardware:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :core-vision:lintAnalyzeDebug FROM-CACHE
+> Task :core-vision:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core-vision:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-model:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :core-crypto:generateDebugUnitTestLintModel
+> Task :core-storage:lintAnalyzeDebug FROM-CACHE
+> Task :core-hardware:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-ui:generateDebugAndroidTestLintModel
+> Task :core-ui:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-model:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-crypto:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :core-network:generateDebugUnitTestLintModel
+> Task :core-crypto:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-network:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :app-mobile:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-storage:generateDebugUnitTestLintModel
+> Task :core-network:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-storage:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :app-terminal:compileDebugJavaWithJavac FROM-CACHE
+> Task :core-storage:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-ui:generateDebugUnitTestLintModel
+> Task :core-ui:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :app-mobile:mergeDebugAssets
+> Task :app-terminal:mergeDebugAssets
+> Task :core-ui:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :core-vision:generateDebugAndroidTestLintModel
+> Task :core-vision:generateDebugUnitTestLintModel
+> Task :core-vision:lintAnalyzeDebugAndroidTest FROM-CACHE
+> Task :core-vision:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :app-terminal:compressDebugAssets FROM-CACHE
+> Task :app-mobile:compressDebugAssets FROM-CACHE
+> Task :app-mobile:dexBuilderDebug FROM-CACHE
+> Task :app-terminal:dexBuilderDebug FROM-CACHE
+> Task :app-mobile:mergeDebugGlobalSynthetics FROM-CACHE
+> Task :app-terminal:mergeDebugGlobalSynthetics FROM-CACHE
+> Task :app-mobile:processDebugJavaRes
+> Task :app-terminal:processDebugJavaRes
+> Task :app-terminal:mergeLibDexDebug FROM-CACHE
+> Task :app-mobile:mergeLibDexDebug FROM-CACHE
+> Task :app-mobile:mergeProjectDexDebug FROM-CACHE
+> Task :app-terminal:mergeProjectDexDebug FROM-CACHE
+> Task :app-terminal:preDebugUnitTestBuild UP-TO-DATE
+> Task :app-mobile:preDebugUnitTestBuild UP-TO-DATE
+> Task :app-terminal:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :app-mobile:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :app-mobile:bundleDebugClassesToCompileJar
+> Task :app-mobile:bundleDebugClassesToRuntimeJar
+> Task :app-terminal:bundleDebugClassesToCompileJar
+> Task :app-terminal:bundleDebugClassesToRuntimeJar
+> Task :app-mobile:packageDebugUnitTestForUnitTest
+> Task :app-terminal:packageDebugUnitTestForUnitTest
+> Task :app-mobile:mergeDebugNativeLibs
+> Task :app-terminal:mergeDebugNativeLibs
+> Task :app-mobile:processDebugUnitTestManifest
+> Task :app-terminal:processDebugUnitTestManifest
+> Task :app-terminal:preDebugAndroidTestBuild SKIPPED
+> Task :app-terminal:generateDebugUnitTestConfig
+> Task :app-terminal:generateDebugAndroidTestLintModel
+> Task :app-terminal:extractProguardFiles
+> Task :app-terminal:generateDebugLintReportModel
+> Task :app-terminal:generateDebugUnitTestLintModel
+
+> Task :app-mobile:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libbarhopper_v3.so, libdatastore_shared_counter.so, libface_detector_v2_jni.so, libimage_processing_util_jni.so, libmediapipe_tasks_vision_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app-mobile:preDebugAndroidTestBuild SKIPPED
+> Task :app-mobile:generateDebugUnitTestConfig
+
+> Task :app-terminal:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libbarhopper_v3.so, libdatastore_shared_counter.so, libface_detector_v2_jni.so, libimage_processing_util_jni.so, libmediapipe_tasks_vision_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app-mobile:generateDebugAndroidTestLintModel
+> Task :app-mobile:extractProguardFiles
+> Task :app-mobile:generateDebugLintReportModel
+> Task :app-mobile:generateDebugUnitTestLintModel
+> Task :app-mobile:mergeDebugJavaResource
+> Task :app-terminal:mergeDebugJavaResource
+> Task :app-terminal:packageDebug
+> Task :app-mobile:packageDebug
+> Task :app-terminal:createDebugApkListingFileRedirect
+> Task :app-mobile:createDebugApkListingFileRedirect
+> Task :app-mobile:assembleDebug
+> Task :app-terminal:assembleDebug
+> Task :app-terminal:lintAnalyzeDebugAndroidTest
+> Task :app-mobile:lintAnalyzeDebugAndroidTest
+> Task :app-terminal:compileDebugUnitTestKotlin
+> Task :app-mobile:compileDebugUnitTestKotlin
+> Task :app-terminal:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app-mobile:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app-mobile:processDebugUnitTestJavaRes
+> Task :app-terminal:processDebugUnitTestJavaRes
+> Task :app-terminal:lintAnalyzeDebugUnitTest
+> Task :app-mobile:lintAnalyzeDebugUnitTest
+> Task :app-terminal:lintAnalyzeDebug
+> Task :app-mobile:lintAnalyzeDebug
+> Task :app-mobile:testDebugUnitTest
+> Task :app-terminal:testDebugUnitTest
+
+> Task :app-mobile:lintReportDebug
+Wrote HTML report to file://<checkout>/android/app-mobile/build/reports/lint-results-debug.html
+
+> Task :app-mobile:lintDebug
+
+> Task :app-terminal:lintReportDebug
+Wrote HTML report to file://<checkout>/android/app-terminal/build/reports/lint-results-debug.html
+
+> Task :app-terminal:lintDebug
+
+BUILD SUCCESSFUL in 1m 49s
+422 actionable tasks: 236 executed, 186 from cache

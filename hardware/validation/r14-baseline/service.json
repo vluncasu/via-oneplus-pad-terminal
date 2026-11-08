@@ -1,0 +1,68 @@
+{
+  "bar_locked": [
+    {
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "intersection_mm3": 21.55152518982621,
+      "stop": "H01"
+    },
+    {
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "intersection_mm3": 535.9690631245237,
+      "stop": "H01"
+    },
+    {
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "intersection_mm3": 26.87177936055762,
+      "stop": "H06"
+    }
+  ],
+  "bar_unlocked_path": [
+    {
+      "rise_mm": 2,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rise_mm": 5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rise_mm": 10,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rise_mm": 16,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "tablet_nominal_sweep": [
+    {
+      "id": "H01",
+      "mm3": 0.0
+    },
+    {
+      "id": "H04",
+      "mm3": 0.0
+    },
+    {
+      "id": "O01",
+      "mm3": 0.0
+    },
+    {
+      "id": "O06",
+      "mm3": 0.0
+    }
+  ],
+  "scope": "H05 and H06 removed for tablet sweep; no physical tablet bump/buttons/cable or load/deformation validation."
+}

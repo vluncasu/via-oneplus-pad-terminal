@@ -1,0 +1,549 @@
+{
+  "scope": "Geometric checks only. Bounding-box fit excludes brim, supports, purge and slicer exclusion zones. No physical print or material-strength validation.",
+  "parts": [
+    {
+      "id": "B01",
+      "file": "hardware/print/white-petg/01x_B01_monoblock_base_integrated_light_belt.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "0c5ec42cfa758dfba8e4a327daae061710ea01565e2244e7c27e417c312bbf01",
+      "triangles": 93108,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        190.2117,
+        190.2117,
+        230.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 121013.597
+    },
+    {
+      "id": "B03",
+      "file": "hardware/print/white-petg/01x_B03_bottom_service_cover.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "774302bcbfbc84025360374824d531ffc211af09dfd123afd02419c5ebd01c9e",
+      "triangles": 29252,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        157.2605,
+        157.2605,
+        209.4
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 131196.938
+    },
+    {
+      "id": "B07",
+      "file": "hardware/print/white-petg/01x_B07_integrated_s_stand_and_power_supply_cover.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "54b081cfc64558b963ace5f3d7787b5f4672f471e49e7d0a8772b41521695263",
+      "triangles": 187896,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        240.0,
+        230.0,
+        197.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 628386.02
+    },
+    {
+      "id": "P01",
+      "file": "hardware/print/black-petg/01x_P01_recessed_dummy_port_cartridge_and_cable_funnel.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "f8289e40153b9f93d847d9a311afd338ad4fead39be2e652194472372d0d712a",
+      "triangles": 4122,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        180.0,
+        19.9921,
+        14.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 27227.027
+    },
+    {
+      "id": "H01",
+      "file": "hardware/print/white-petg/01x_H01_structural_front_frame_integrated_led_channel.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "7a794d37a1c250334824c460c8a253c2acafd99e074c560e7cad1289e2a473a4",
+      "triangles": 128044,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        242.7498,
+        242.7498,
+        224.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 211844.067
+    },
+    {
+      "id": "H04",
+      "file": "hardware/print/white-petg/01x_H04_lower_structural_rear_cover.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "993d343ae5e6e228649fd330dc4a9b1aa72341259741f5be4e5e66c7a40fea91",
+      "triangles": 91908,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        221.6073,
+        221.6073,
+        187.55
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 207158.347
+    },
+    {
+      "id": "O01",
+      "file": "hardware/print/black-petg/01x_O01_open_optical_carrier.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "a9312d434b4316eb7bc1cee61d4520029f8db1dee6e4f5f31caae1e1e7408bb7",
+      "triangles": 77364,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        26.0,
+        194.0,
+        29.8
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 46212.018
+    },
+    {
+      "id": "O03",
+      "file": "hardware/print/black-petg/01x_O03_optical_carrier_usb_service_cover.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "5a2e520cdbf46c2cd4e5ed9c9cebfe12a0b0112b5ee832fc77609988e8dac848",
+      "triangles": 2860,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        34.6,
+        202.6,
+        7.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 20506.986
+    },
+    {
+      "id": "V21",
+      "file": "hardware/print/white-petg/04x_V21-V22-V23-V24_head_mount_screw_D12_P2p5_L12.stl",
+      "quantity": 4,
+      "optional": false,
+      "sha256": "477993e08bf735d29e42ed9641b1c373380efca806cd416783ae2373f37d8b19",
+      "triangles": 26116,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        18.7126,
+        18.7163,
+        16.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2204.855
+    },
+    {
+      "id": "V31",
+      "file": "hardware/print/white-petg/04x_V31-V32-V33-V34_spherical_slotted_screw_foot_D8.stl",
+      "quantity": 4,
+      "optional": false,
+      "sha256": "1bf5bacca6a4ff99b60de115a9dddff5db14ce98072077c33ab756ddd4212d76",
+      "triangles": 27042,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        23.2287,
+        23.2333,
+        20.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2685.502
+    },
+    {
+      "id": "V41",
+      "file": "hardware/print/white-petg/04x_V41-V42-V43-V44_base_cover_screw_D8_P2p5_L10.stl",
+      "quantity": 4,
+      "optional": false,
+      "sha256": "636412685d426a3e4c9f0a9d15bcc771a70f3ac469366135cb90a162b796b6ac",
+      "triangles": 21804,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        12.4751,
+        12.4775,
+        14.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 851.926
+    },
+    {
+      "id": "V51",
+      "file": "hardware/print/white-petg/04x_V51-V52-V53-V54_rear_cover_screw_D8_P2p5_L14.stl",
+      "quantity": 4,
+      "optional": false,
+      "sha256": "76c44aa55e892a546f07669cb7fcfd41e415fee9ffcb2b0b41ae39a0dc926f28",
+      "triangles": 30808,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        12.4751,
+        12.4775,
+        18.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 1006.969
+    },
+    {
+      "id": "V61",
+      "file": "hardware/print/white-petg/02x_V61-V62_usb_cover_screw_D8_P2p5_L16p3.stl",
+      "quantity": 2,
+      "optional": false,
+      "sha256": "9a62226a99139fee47ca5fbcfadbfcea9a69dc78d91886eae1cfd23aab73f720",
+      "triangles": 36402,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        12.4751,
+        12.4775,
+        20.3
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 1096.12
+    },
+    {
+      "id": "Q12",
+      "file": "hardware/print/optional-probes/01x_Q12_usb_plug_pull_through_gauge_16x10x30.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "c253865fc136a2f182bc72719ea6738d0756e5ddf0bcac7b10ef876e07c4c7e3",
+      "triangles": 652,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        16.0,
+        10.0,
+        30.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 4484.77
+    },
+    {
+      "id": "Q01",
+      "file": "hardware/print/optional-probes/01x_Q01_D12_thread_test_screw.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "477993e08bf735d29e42ed9641b1c373380efca806cd416783ae2373f37d8b19",
+      "triangles": 26116,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        18.7126,
+        18.7163,
+        16.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2204.855
+    },
+    {
+      "id": "Q02",
+      "file": "hardware/print/optional-probes/01x_Q02_D12_nut_clearance_0p25.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "b1b42f7c93d2a47b2ecbe42fd7e4901dfc98eea1be9bec40b3ffd2b9779e0ca1",
+      "triangles": 21808,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        19.9921,
+        19.996,
+        10.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2098.696
+    },
+    {
+      "id": "Q03",
+      "file": "hardware/print/optional-probes/01x_Q03_D12_nut_clearance_0p35.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "b5faf510bb282293596e88502ad8a53d60c32219f3bd0ffecc62643f3264cd85",
+      "triangles": 21808,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        19.9921,
+        19.996,
+        10.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2062.358
+    },
+    {
+      "id": "Q04",
+      "file": "hardware/print/optional-probes/01x_Q04_D12_nut_clearance_0p45.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "521c3811ef82f82e780137c4cba8a4e31c91df1eb138c93eae1a58bb990fe029",
+      "triangles": 21808,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        19.9921,
+        19.996,
+        10.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2025.393
+    },
+    {
+      "id": "Q05",
+      "file": "hardware/print/optional-probes/01x_Q05_D8_thread_test_screw.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "9cec4cf86deb94aab06c654f2ce51cb078501eb650e5d3f1b3ce7e7d02df398d",
+      "triangles": 21804,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        12.4751,
+        12.4775,
+        14.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 851.926
+    },
+    {
+      "id": "Q06",
+      "file": "hardware/print/optional-probes/01x_Q06_D8_nut_clearance_0p30.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "d375e9475d924e5b3c7e2914279833c723992eeb52c1ac8ef43d29b6f6116e6e",
+      "triangles": 17508,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        13.9945,
+        13.9972,
+        8.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 865.241
+    },
+    {
+      "id": "Q07",
+      "file": "hardware/print/optional-probes/01x_Q07_tablet_corner_fit_coupon.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "ea2ed23f6953d8e4ac518fd48715491e4bc2de3e8d9c1f8f39d678153ff8f6bc",
+      "triangles": 308,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        30.0,
+        30.0,
+        9.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 5187.029
+    },
+    {
+      "id": "Q11",
+      "file": "hardware/print/optional-probes/01x_Q11_front_camera_clearance_coupon.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "aa79d2cf38a92000c2edd145c9d4bf4c3871d2e9975b8412d703b5074f29f1f7",
+      "triangles": 44,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        40.0,
+        17.895,
+        8.3
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 5530.479
+    },
+    {
+      "id": "Q08",
+      "file": "hardware/print/optional-probes/01x_Q08_light_transmission_wall_0p6.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "e15e7b7366a3beba263288e90a84d86d8677aefa95e6fcb6e794573b9e677547",
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        25.0,
+        15.0,
+        0.6
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 225.0
+    },
+    {
+      "id": "Q09",
+      "file": "hardware/print/optional-probes/01x_Q09_light_transmission_wall_0p8.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "52b561234391ce80248704e8d478cceed2ef5cfefc3994bf28be137bf9640863",
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        25.0,
+        15.0,
+        0.8
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 300.0
+    },
+    {
+      "id": "Q10",
+      "file": "hardware/print/optional-probes/01x_Q10_light_transmission_wall_1p0.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "ece7ee7d327e09758477f8d5eeadf3d8a8c529221a2a389330c7300a5b7928c8",
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        25.0,
+        15.0,
+        1.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 375.0
+    },
+    {
+      "id": "Q13",
+      "file": "hardware/print/optional-probes/01x_Q13_tablet_width_gauge_259p03.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "655433e68f46a7c73eb9504fd36e429ec571901814a244dee08b2551e323ea74",
+      "triangles": 52,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        200.1324,
+        200.1324,
+        11.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 5830.537
+    },
+    {
+      "id": "Q14",
+      "file": "hardware/print/optional-probes/01x_Q14_tablet_height_gauge_190p41.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "90d10ab8ce1e2073e39788031c69ae4534c476ca45a44d1a8568c364fd1b47f2",
+      "triangles": 52,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        151.6108,
+        151.6108,
+        11.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 4595.377
+    },
+    {
+      "id": "Q15",
+      "file": "hardware/print/optional-probes/01x_Q15_led_channel_corner_coupon_8p5.stl",
+      "quantity": 1,
+      "optional": true,
+      "sha256": "89bee5d884e7bb63eaac8eabd900891864a7bd92c3b9aec0fbf783d5f6a958f3",
+      "triangles": 652,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        29.0,
+        24.0,
+        14.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 2767.447
+    },
+    {
+      "id": "H05",
+      "file": "hardware/print/white-petg/01x_H05_sliding_top_tablet_retention_bar.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "e8834203381788594e167d0cdb31cd7e4cb98f6804dadba5a5ae664bd97512fa",
+      "triangles": 1424,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        195.1615,
+        195.1615,
+        8.3
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 35056.455
+    },
+    {
+      "id": "O05",
+      "file": "hardware/print/natural-petg/01x_O05_captive_optical_film_0p20mm.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "786ca25df39c85cda7f9f0c1363f2e14396127e6574d76bbc0f27b61de7a3563",
+      "triangles": 444,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        25.6,
+        193.6,
+        0.2
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 963.92
+    },
+    {
+      "id": "H06",
+      "file": "hardware/print/white-petg/01x_H06_upper_rear_service_cover_integrated_locking_pins.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "ce7ca736a3c72647fb8ab54ae8e08dd0e0307982a9ece7a35a38828829f3d873",
+      "triangles": 4316,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        236.5774,
+        236.5774,
+        34.2
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 49545.577
+    },
+    {
+      "id": "O06",
+      "file": "hardware/print/black-petg/01x_O06_flat_back_dummy_sensor_face.stl",
+      "quantity": 1,
+      "optional": false,
+      "sha256": "28c87c2a149cd1e027f280d0cdc4b68e4cdcc7eecbba9aed50bceb8725a92415",
+      "triangles": 32408,
+      "watertight": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        26.0,
+        194.0,
+        3.0
+      ],
+      "nominal_256mm_box_fit": true,
+      "volume_mm3": 13883.248
+    }
+  ]
+}

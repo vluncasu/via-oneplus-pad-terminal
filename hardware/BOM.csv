@@ -1,0 +1,33 @@
+id,part_ids,name,quantity,optional,material,file,source_revision
+B01,B01,monoblock base integrated light belt,1,False,white PETG,hardware/print/white-petg/01x_B01_monoblock_base_integrated_light_belt.stl,R14
+B03,B03,bottom service cover,1,False,white PETG,hardware/print/white-petg/01x_B03_bottom_service_cover.stl,R14
+B07,B07,integrated s stand and power supply cover,1,False,white PETG,hardware/print/white-petg/01x_B07_integrated_s_stand_and_power_supply_cover.stl,R14
+P01,P01,recessed dummy port cartridge and cable funnel,1,False,black PETG,hardware/print/black-petg/01x_P01_recessed_dummy_port_cartridge_and_cable_funnel.stl,R14
+H01,H01,structural front frame integrated led channel,1,False,white PETG,hardware/print/white-petg/01x_H01_structural_front_frame_integrated_led_channel.stl,R14
+H04,H04,lower structural rear cover,1,False,white PETG,hardware/print/white-petg/01x_H04_lower_structural_rear_cover.stl,R14
+O01,O01,open optical carrier,1,False,black PETG,hardware/print/black-petg/01x_O01_open_optical_carrier.stl,R14
+O03,O03,optical carrier usb service cover,1,False,black PETG,hardware/print/black-petg/01x_O03_optical_carrier_usb_service_cover.stl,R14
+V21,"V21,V22,V23,V24",head mount screw D12 P2p5 L12,4,False,white PETG,hardware/print/white-petg/04x_V21-V22-V23-V24_head_mount_screw_D12_P2p5_L12.stl,R14
+V31,"V31,V32,V33,V34",spherical slotted screw foot D8,4,False,white PETG,hardware/print/white-petg/04x_V31-V32-V33-V34_spherical_slotted_screw_foot_D8.stl,R14
+V41,"V41,V42,V43,V44",base cover screw D8 P2p5 L10,4,False,white PETG,hardware/print/white-petg/04x_V41-V42-V43-V44_base_cover_screw_D8_P2p5_L10.stl,R14
+V51,"V51,V52,V53,V54",rear cover screw D8 P2p5 L14,4,False,white PETG,hardware/print/white-petg/04x_V51-V52-V53-V54_rear_cover_screw_D8_P2p5_L14.stl,R14
+V61,"V61,V62",usb cover screw D8 P2p5 L16p3,2,False,white PETG,hardware/print/white-petg/02x_V61-V62_usb_cover_screw_D8_P2p5_L16p3.stl,R14
+Q12,Q12,usb plug pull through gauge 16x10x30,1,True,white PETG,hardware/print/optional-probes/01x_Q12_usb_plug_pull_through_gauge_16x10x30.stl,R14
+Q01,Q01,D12 thread test screw,1,True,white PETG,hardware/print/optional-probes/01x_Q01_D12_thread_test_screw.stl,R14
+Q02,Q02,D12 nut clearance 0p25,1,True,white PETG,hardware/print/optional-probes/01x_Q02_D12_nut_clearance_0p25.stl,R14
+Q03,Q03,D12 nut clearance 0p35,1,True,white PETG,hardware/print/optional-probes/01x_Q03_D12_nut_clearance_0p35.stl,R14
+Q04,Q04,D12 nut clearance 0p45,1,True,white PETG,hardware/print/optional-probes/01x_Q04_D12_nut_clearance_0p45.stl,R14
+Q05,Q05,D8 thread test screw,1,True,white PETG,hardware/print/optional-probes/01x_Q05_D8_thread_test_screw.stl,R14
+Q06,Q06,D8 nut clearance 0p30,1,True,white PETG,hardware/print/optional-probes/01x_Q06_D8_nut_clearance_0p30.stl,R14
+Q07,Q07,tablet corner fit coupon,1,True,white PETG,hardware/print/optional-probes/01x_Q07_tablet_corner_fit_coupon.stl,R14
+Q11,Q11,front camera clearance coupon,1,True,white PETG,hardware/print/optional-probes/01x_Q11_front_camera_clearance_coupon.stl,R14
+Q08,Q08,light transmission wall 0p6,1,True,white PETG,hardware/print/optional-probes/01x_Q08_light_transmission_wall_0p6.stl,R14
+Q09,Q09,light transmission wall 0p8,1,True,white PETG,hardware/print/optional-probes/01x_Q09_light_transmission_wall_0p8.stl,R14
+Q10,Q10,light transmission wall 1p0,1,True,white PETG,hardware/print/optional-probes/01x_Q10_light_transmission_wall_1p0.stl,R14
+Q13,Q13,tablet width gauge 259p03,1,True,white PETG,hardware/print/optional-probes/01x_Q13_tablet_width_gauge_259p03.stl,R14
+Q14,Q14,tablet height gauge 190p41,1,True,white PETG,hardware/print/optional-probes/01x_Q14_tablet_height_gauge_190p41.stl,R14
+Q15,Q15,led channel corner coupon 8p5,1,True,white PETG,hardware/print/optional-probes/01x_Q15_led_channel_corner_coupon_8p5.stl,R14
+H05,H05,sliding top tablet retention bar,1,False,white PETG,hardware/print/white-petg/01x_H05_sliding_top_tablet_retention_bar.stl,R14
+O05,O05,captive optical film 0p20mm,1,False,natural PETG,hardware/print/natural-petg/01x_O05_captive_optical_film_0p20mm.stl,R14 + O05 thickness amendment
+H06,H06,upper rear service cover integrated locking pins,1,False,white PETG,hardware/print/white-petg/01x_H06_upper_rear_service_cover_integrated_locking_pins.stl,R14
+O06,O06,flat back dummy sensor face,1,False,black PETG,hardware/print/black-petg/01x_O06_flat_back_dummy_sensor_face.stl,R14

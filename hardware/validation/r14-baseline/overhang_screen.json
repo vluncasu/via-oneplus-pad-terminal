@@ -1,0 +1,25 @@
+{
+  "scope": "Triangle-normal screening only, not a slicer test. Includes existing thread flanks, small bridges and screw bearing shoulders. No support-free guarantee.",
+  "parts": [
+    {
+      "id": "O01",
+      "downward_surface_over_50deg_above_bed_mm2": 325.249
+    },
+    {
+      "id": "O06",
+      "downward_surface_over_50deg_above_bed_mm2": 5.12
+    },
+    {
+      "id": "H05",
+      "downward_surface_over_50deg_above_bed_mm2": 0.011
+    },
+    {
+      "id": "H06",
+      "downward_surface_over_50deg_above_bed_mm2": 147.834
+    },
+    {
+      "id": "O05",
+      "downward_surface_over_50deg_above_bed_mm2": 0
+    }
+  ]
+}
